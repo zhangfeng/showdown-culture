@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+title: Showdown culture, mon histoire de Showdown
+description: >
+    Histoire de Showdozzn avec des idées, pensées et proposition d'Emmanuel Coutris
+baseurl: ""
+url: http://www.showdown.ml
+
+markdown: kramdown
