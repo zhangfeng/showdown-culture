@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+  </head>
+  <body>
+    <nav><ul>
+      {% assign nav_items = site.pages | where_exp:"p", "p.dir == '/'" %}
+      {% for p in nav_items %}
+      <li><a href="{{ p.url }}/">{{ p.title }}</a></li>
+      {% endfor %}
+    </ul></nav>
+    <h1>{{ page.title }}</h1>
+    <section>{{ content }}</section>
+    <footer>{% include footer.html %}</footer>
+  </body>
+</html>

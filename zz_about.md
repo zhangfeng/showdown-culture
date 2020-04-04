@@ -1,7 +1,6 @@
 ---
-layout: page
 title: À propos de l'auteur
-permalink: /about/
+permalink: /about
 ---
 
 À 9 ans, j'ai fait la connaissance du Showdown grâce à mon professeur (un

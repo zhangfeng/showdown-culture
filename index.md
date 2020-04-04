@@ -1,6 +1,5 @@
 ---
-layout: home
-title: Showdown Culture
+title: Accueil
 ---
 
 # Bienvenue sur Showdown Culture
